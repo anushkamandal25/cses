@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+//O(n) time and O(1) space
 int main()
 {
     string s;
@@ -18,5 +19,6 @@ int main()
             blockSize=1;
         }
     }
+    answer=max(answer, blockSize);
     cout<<answer;
 }
